@@ -1,0 +1,36 @@
+coluna,descricao
+tp_not,"Tipo de notificação (negativa, individual, surto, agregado)"
+id_agravo,Código/nome do agravo segundo CID-10 (notificação compulsória)
+dt_notific,Data da notificação (preenchimento da ficha)
+sem_not,Semana epidemiológica da notificação (AAAASS)
+nu_ano,Ano da notificação (variável interna)
+sg_uf_not,UF onde está a unidade notificadora (sigla IBGE)
+id_municip,Código IBGE do município da unidade notificadora
+id_regiona,Código da regional de saúde (ligada ao município de notificação)
+id_unidade,Código/nome do estabelecimento notificante (CNES)
+dt_sin_pri,Data de primeiros sintomas
+sem_pri,Semana epidemiológica dos primeiros sintomas (AAAASS)
+ano_nasc,Ano de nascimento do paciente
+nu_idade_n,"Idade com unidade codificada (1=h,2=d,3=m,4=a + valor)"
+cs_sexo,"Sexo do paciente (M, F, I)"
+cs_gestant,"Situação gestacional (trimestres, não se aplica, ignorado)"
+cs_raca,"Raça/cor (branca, preta, amarela, parda, indígena, ignorado)"
+cs_escol_n,Escolaridade (faixas da educação formal; inclui 'não se aplica')
+sg_uf,UF de residência (sigla IBGE)
+id_mn_resi,Código IBGE do município de residência
+id_rg_resi,Código da regional de saúde da residência
+id_pais,País de residência (se fora do Brasil)
+dt_invest,Data de início da investigação
+id_ocupa_n,Ocupação / ramo de atividade econômica
+hospitaliz,"Ocorreu hospitalização? (sim, não, ignorado)"
+dt_interna,Data da internação (se hospitalizado)
+tpautocto,Caso autóctone do município de residência?
+coufinf,UF provável da fonte de infecção
+copaisinf,País provável da fonte de infecção
+comuninf,Município provável da fonte de infecção
+classi_fin,"Classificação final do caso (confirmado, descartado, etc.)"
+criterio,"Critério de confirmação/descarte (laboratório, clínico-epidemiológico, etc.)"
+dt_pcr,Data da coleta para RT-PCR
+resul_pcr_,"Resultado do RT-PCR (reagente, não reagente, etc.)"
+dt_viral,Data da coleta para isolamento viral
+resul_vi_n,"Resultado do isolamento viral (reagente, não reagente, etc.)"

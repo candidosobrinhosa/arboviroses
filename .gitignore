@@ -1,8 +1,12 @@
 # -------------------------------------
 # Datasets (CSV, ZIP, etc.)
 # -------------------------------------
-*.csv
-*.zip
+datasets/dados_dengue/*.zip
+datasets/dados_dengue/csv/*.csv
+datasets/dados_chikungunya/*.zip
+datasets/dados_chikungunya/csv/*.csv
+datasets/dados_zika/*.zip
+datasets/dados_zika/csv/*.csv
 
 # -------------------------------------
 # Ambientes virtuais e dependências

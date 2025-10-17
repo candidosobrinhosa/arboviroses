@@ -1,0 +1,28 @@
+# -------------------------------------
+# Datasets (CSV, ZIP, etc.)
+# -------------------------------------
+datasets/
+data/
+*.csv
+*.zip
+
+# -------------------------------------
+# Ambientes virtuais e dependências
+# -------------------------------------
+.venv/
+venv/
+env/
+ENV/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+pip-wheel-metadata/
+*.manifest
+*.spec

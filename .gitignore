@@ -1,26 +1,5 @@
 # -------------------------------------
-# Datasets (CSV, ZIP, etc.)
+# RAW Datasets (CSV, ZIP, etc.)
 # -------------------------------------
-datasets/*.zip
-datasets/*.csv
-
-# -------------------------------------
-# Ambientes virtuais e dependências
-# -------------------------------------
-.venv/
-venv/
-env/
-ENV/
-__pycache__/
-*.py[cod]
-*.pyo
-*.pyd
-*.so
-*.egg
-*.egg-info/
-dist/
-build/
-.eggs/
-pip-wheel-metadata/
-*.manifest
-*.spec
+*.csv
+*.zip
